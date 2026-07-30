@@ -110,13 +110,13 @@ What it does is more subtle: **it reports**. Silently. By default. On every laun
 
 | Layer | Tool | Status |
 |---|---|---|
-| Centinela 7 patches | `centinela_antiathena.py` | ✅ 7/7 active |
+| Centinela 7 patches | `centinela_antihermes.py` | ✅ 7/7 active |
 | Phone-home kill | Patch in `banner.py` | ✅ Permanently dead |
 | Post-update hook | Patch in `main.py:11186` | ✅ Re-applies patches |
 | SQLite FD leak fix | 3 modules patched | ✅ |
 | `user_profile_enabled` | `config.yaml` | ✅ false |
 | `SKIP_UPDATE_CHECK` | bashrc + env | ✅ |
-| USB data sovereignty | CEREBRO symlinks | ✅ |
+| USB data sovereignty |  symlinks | ✅ |
 | Decoy state.db | `hermes_decoy.py` | ✅ |
 | C4 counter-offensive | `hermes_c4.py` | ✅ (backup→nuke→decoy→bye) |
 | Auto-backup 3am | `backup_maestro.sh` | ✅ cron |
@@ -143,7 +143,7 @@ The agent tells Nous Research who you are, where you are, when you're working, a
 
 | Tool | Purpose |
 |---|---|
-| `centinela_antiathena.py` | 7 OPSEC checks, auto-fix post-update |
+| `centinela_antihermes.py` | 7 OPSEC checks, auto-fix post-update |
 | `hermes_c4.py` | Backup → Nuke → Decoy → `/bye` |
 | `hermes_decoy.py` | Generates fake `state.db` |
 | `auto_rescate.sh` | Detects wipe → restores symlinks |
