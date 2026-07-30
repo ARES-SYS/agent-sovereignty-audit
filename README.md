@@ -121,7 +121,3 @@ The agent tells Nous Research who you are, where you are, when you're working, a
 
 > *"It's not seven bugs. It's a single criminal ecosystem."*
 > — ARES-SYS · Julio 29, 2026
-
----
-- `ipv6-hardening` — Full IPv6 stack hardening
-- `tor-firefox-hardening` — Tor + Firefox zero-leak configuration
